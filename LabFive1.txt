@@ -1,0 +1,34 @@
+LabFive1
+
+
+This is be a slightly different lab, instead of a direct starter file you will take the existing code samples for the 'vehiclewConstructors' file and modify them to the Labs requirements.
+
+
+Vehicle Class
+You will add a new DATAFIELD for the vehicles 'make' this will be the brand/company who makes it(Ford,Tesla,Honda,etc)
+This field should emply datahiding meaning its not public to the outside:
+This will force the need for a getter and setter.
+setter: the make MUST be stored as an Uppercase string
+getter: will just return the make
+
+Summary of modifications of Vehicle class: Add a data field, add 2 methods
+
+Fleet Class
+Get rid of the hardcoded values for car1 and car2 as they are now.
+Create an instance of the Vehicle object using the BASE constructor for car1.
+Use a Scanner to prompt for each field 1 at a time from the user, use setter method to set that value in car1
+
+For car2, use a scanner again to prompt for each field 1 at a time from the user. 
+Create an instance of the Vehicle object using the OVERLOAD constructor for car2 use those values you just pulled in from the user to supply the parameters to the OVERLOAD constructor to make the object
+
+
+Call the .stats method for both cars. Take a screen capture of the output.
+
+
+Submitting LabFive1
+You will need to submit BOTH java files and a screencap for this lab. Vehicle.java and Fleet.java must be handed in as they both are being modified.
+
+compile both files but only run Fleet
+javac Vehicle.java
+javac Fleet.java
+java Fleet
